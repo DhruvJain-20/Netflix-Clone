@@ -1,0 +1,239 @@
+*{
+    font-family: arial;
+    margin: 0;
+    border: border-box;
+    color: white;
+}
+#head{
+    height: 675px;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-1200-80.jpg.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#head1{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    background: transparent;
+    height: 50px;
+    width: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 15px;
+}
+#sign{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 75px;
+    margin: 15px;
+    margin-left: 3px;
+    margin-top: 25px;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#sign:hover{
+    background-color: darkred;
+}
+#lang{
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin: 15px;
+    margin-right: 3px;
+    margin-left: 655px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+#start{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 175px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#start:hover{
+    background-color: darkred;
+}
+#email{
+    height: 45px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    width: 300px;
+}
+.class1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#price{
+    font-weight: bold;
+}
+#member{
+    font-size: small;
+}
+#head2{
+    text-align: center;
+}
+#foot{
+    background-color: #080116;
+    border-top: 5px;
+    border-color: red;
+}
+#movie{
+    display: flex;
+    justify-content: center;
+}
+#trend{
+    font-size: large;
+    font-weight: bold;
+    padding-left: 205px;
+}
+.m{
+    height: 250px;
+    width: 175px;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(1, 0, 3);
+    border-radius: 20px;
+    margin: 10px;
+    transition-property: all;
+    transition-duration: 0.75s;
+}
+#m1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODiO-bB3T0rwrrs4PvVL1-ZIbcX1-pxTDbDTgTokodg9B40MowLrSzrWUNMp6tKxJn3VxiejAo42yX1LIwZVhosI8UT7j4YQEu4a3GzOi1A&s=10);
+    background-size: cover;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+#m2{
+    background-image: url(Avengers.png);
+    background-size: cover;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+#m3{
+    background-image: url(Mirzapur.png);
+    background-size: cover;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+#m4{
+    background-image: url(Familyman.png);
+    background-size: cover;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+#m5{
+    background-image: url(Kapil.png);
+    background-size: cover;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+#reason{
+    background-color: rgb(1, 0, 3);
+    display: flex;
+    justify-content: center;
+}
+.r{
+    background-color: rgb(28, 4, 59);
+    margin: 5px;
+    height: 250px;
+    width: 210px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.m:hover{
+    height: 260px;
+    width: 185px;
+}
+.r1{
+    font-size: larger;
+    font-weight: bolder;
+}
+.r2{
+    font-size: smaller;
+    font-weight: lighter;
+}
+#l{
+    padding-top: 100px;
+    padding-left: 175px;
+}
+.q{
+    height: 25px;
+    margin: 5px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 205px;
+    margin-right: 205px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.q:hover{
+    background-color: rgb(87, 84, 84);
+}
+#ready{
+    text-align: center;
+}
+#mail{
+    height: 45px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    width: 500px;
+}
+#call{
+    padding-left: 205px;
+    font-size: smaller;
+    color: gray;
+    
+}
+#list{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
+.l{
+    width: 250px;
+    color: gray;
+}
+.ul{
+    list-style-type: none;
+}
+a{
+    color: gray;
+}
+#eng{
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 205px;
+}
+#ind{
+    font-size: smaller;
+    font-weight: lighter;
+    margin-left: 205px;
+    color: gray;
+}
+#google{
+    font-size: smaller;
+    color: gray;
+    margin-left: 205px;
+}
+#lm{
+    color: rgb(71, 71, 189);
+}
